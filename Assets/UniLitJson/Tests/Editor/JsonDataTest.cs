@@ -15,7 +15,7 @@ using System;
 using System.Collections.Generic;
 
 
-namespace LitJson.Test
+namespace LitJson.Tests
 {
     [TestFixture]
     public class JsonDataTest

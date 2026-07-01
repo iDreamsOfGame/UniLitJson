@@ -16,7 +16,7 @@ using System.IO;
 using System.Text;
 
 
-namespace LitJson.Test
+namespace LitJson.Tests
 {
     [TestFixture]
     public class JsonWriterTest

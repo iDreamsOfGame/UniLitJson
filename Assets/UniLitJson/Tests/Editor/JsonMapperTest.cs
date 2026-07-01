@@ -19,7 +19,7 @@ using System.IO;
 using System.Reflection;
 
 
-namespace LitJson.Test
+namespace LitJson.Tests
 {
     // Sample classes to test json->object and object->json conversions
     public enum Planets
@@ -214,7 +214,7 @@ namespace LitJson.Test
     }
 
     [TestFixture]
-    public class JsonMapperTest
+    public partial class JsonMapperTest
     {
         [Test]
         public void CustomExporterTest ()

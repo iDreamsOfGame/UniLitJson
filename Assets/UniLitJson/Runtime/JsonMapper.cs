@@ -855,7 +855,12 @@ namespace LitJson
             IList<PropertyMetadata> props = type_properties[obj_type];
 
             writer.WriteObjectStart ();
-            foreach (PropertyMetadata p_data in props) {
+            foreach (PropertyMetadata p_data in props)
+            {
+                var hasJsonIgnoreAttribute = Attribute.IsDefined(p_data.Info, typeof(JsonIgnore), true);
+                if (hasJsonIgnoreAttribute)
+                    continue;
+                
                 if (p_data.IsField) {
                     writer.WritePropertyName (p_data.Info.Name);
                     WriteValue (((FieldInfo) p_data.Info).GetValue (obj),
