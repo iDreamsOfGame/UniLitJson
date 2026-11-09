@@ -1,6 +1,6 @@
 using System;
 
-namespace LitJson
+namespace UniLitJson
 {
     [AttributeUsage(AttributeTargets.Field | AttributeTargets.Property)]
     public sealed class JsonIgnore : Attribute

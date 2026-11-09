@@ -1,4 +1,4 @@
-﻿namespace LitJson
+﻿namespace UniLitJson
 {
     public static class Extensions
     {

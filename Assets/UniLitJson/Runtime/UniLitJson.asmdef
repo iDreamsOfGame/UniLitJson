@@ -1,6 +1,6 @@
 {
     "name": "UniLitJson",
-    "rootNamespace": "LitJson",
+    "rootNamespace": "UniLitJson",
     "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],

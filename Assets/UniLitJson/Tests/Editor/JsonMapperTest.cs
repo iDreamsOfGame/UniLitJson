@@ -8,8 +8,6 @@
  **/
 #endregion
 
-
-using LitJson;
 using NUnit.Framework;
 using System;
 using System.Collections;
@@ -19,7 +17,7 @@ using System.IO;
 using System.Reflection;
 
 
-namespace LitJson.Tests
+namespace UniLitJson.Tests
 {
     // Sample classes to test json->object and object->json conversions
     public enum Planets

@@ -1,6 +1,6 @@
 {
     "name": "UniLitJson.Editor.Tests",
-    "rootNamespace": "LitJson.Tests",
+    "rootNamespace": "UniLitJson.Tests",
     "references": [
         "UniLitJson"
     ],

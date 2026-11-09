@@ -8,14 +8,12 @@
  **/
 #endregion
 
-
-using LitJson;
 using NUnit.Framework;
 using System;
 using System.Collections.Generic;
 
 
-namespace LitJson.Tests
+namespace UniLitJson.Tests
 {
     [TestFixture]
     public class JsonDataTest

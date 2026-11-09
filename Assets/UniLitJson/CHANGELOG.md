@@ -6,6 +6,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 
+## [0.19.1] - 2026-11-09
+
+### Added
+
+ - Supports more Unity data structures like **Vectoe2Int**, **Vector3Int**, etc.
+
+
+
+### Changed
+
+ - Change namespace to **UniLitJson**.
+
+
+
 ## [0.19.0] - 2026-07-01
 ### Added
 

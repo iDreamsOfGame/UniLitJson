@@ -12,7 +12,7 @@
 using System;
 
 
-namespace LitJson
+namespace UniLitJson
 {
     public class JsonException :
 #if NETSTANDARD1_5

@@ -1,6 +1,6 @@
 using NUnit.Framework;
 
-namespace LitJson.Tests
+namespace UniLitJson.Tests
 {
     internal class JsonIgnoreFieldObject
     {
